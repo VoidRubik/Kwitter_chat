@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> LOGIN</title>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<center>
+	<img src = "profile.png" id = "algo">
+</center>
+	<br>
+	<br>
+	<br>
+	
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="kwitter.css">
+
+<script src="kwitter.js"></script>
+</head>
+<body>
+<center>
+
+<div class ="col-lg-4 col-sm-8 col-xs-11 login_div1">
+
+
+<input type = "text" id = "player1_name_input" class = "form-control"  placeholder = "Username">
+
+<br>
+</div>
+<br>
+<div class ="col-lg-4 col-sm-8 col-xs-11 login_div2">
+	
+	<input type = "text" id = "player2_name_input" class = "form-control" placeholder = "Password">	
+</div>	
+<br>
+<button style = "width:10%" class = "btn btn-primary" onclick="addUser()" id ="button_sesion">Login</button>
+<br>
+<br>
+<div class ="alert alert-success fade in" id ="alerta" style="visibility:hidden;">
+<strong>Success</strong> You have logged in successfuly!	
+</div>
+</center>
+</body>
+</html>
